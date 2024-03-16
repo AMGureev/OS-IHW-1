@@ -52,6 +52,15 @@ int32_t function(char string[]) {
 
 void recording_response(int32_t number, char *answer) {
     int index = 0;
+    if (number == 0) {
+        answer[0] = 0 + '0';
+        index = 1;
+        while (index < 10) {
+            answer[index++] = ' ';
+        }
+        answer[9] = '\0';
+        return;
+    }
     while (number != 0) {
         int digit = number % 10;
         answer[index++] = digit + '0';
