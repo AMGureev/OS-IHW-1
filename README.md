@@ -147,8 +147,6 @@ gcc file2 -o name2
 | 4   |     `h0W are 78ou?`    |  `2`  |
 | 5   |     `1geg1 hello 1hello hello1 ghg11hfhd 111 dddd d11`    |  `5`  |
 
-## 
-
 ### Работа на оценку [8](https://github.com/AMGureev/OS-IHW-1/tree/main/grade8)
 
 #### Файлы:
